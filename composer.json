@@ -1,0 +1,26 @@
+{
+    "name": "dmitrijkunts/laravel-lang",
+    "description": "Add lang(s) to project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitrij Kunts",
+            "email": "r206265@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DmitrijKunts\\LaravelLang\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DmitrijKunts\\LaravelLang\\ServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
