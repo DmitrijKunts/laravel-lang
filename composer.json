@@ -9,6 +9,10 @@
             "email": "r206265@gmail.com"
         }
     ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0"
+    },
     "autoload": {
         "psr-4": {
             "DmitrijKunts\\LaravelLang\\": "src"
